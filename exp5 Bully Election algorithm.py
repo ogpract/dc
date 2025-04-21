@@ -9,7 +9,7 @@ class Process(threading.Thread):
         self.manager = manager
         self.active = True
         self.coordinator_id = None
-
+ 
     def run(self):
         time.sleep(random.uniform(0.1, 0.5))
 
